@@ -1,5 +1,3 @@
-import time
-start = time.time()
 def legalmoves(board):
     moves = []
     for pos, piece in enumerate(board):
@@ -43,6 +41,4 @@ def solve(start):
 
 print(solve([1,1,1,0,-1,-1,-1]))
 
-end = time.time()
-print("The time of execution of above program is :",(end-start)"sec")
 
